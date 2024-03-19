@@ -59,7 +59,7 @@ export default function App() {
             ),
           }}
         >
-          <Drawer.Screen name="HomeScreen" component={HomeScreen} />
+          <Drawer.Screen name="Rutas" component={HomeScreen} />
           <Drawer.Screen name="Feedback" component={Feedback} />
           <Drawer.Screen name="Settings" component={Settings} />
         </Drawer.Navigator>

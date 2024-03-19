@@ -4,12 +4,7 @@ import tw from "twrnc";
 import routeCoordinates from "../data/routes.json";
 export const Map = forwardRef(({ location }, ref) => {
   return (
-    <MapView
-      ref={ref}
-      style={tw`flex-1`}
-      mapType="mutedStandard"
-      showsUserLocation={true}
-    >
+    <MapView ref={ref} style={tw`flex-1`} mapType="mutedStandard">
       <Polyline coordinates={routeCoordinates} />
     </MapView>
   );
